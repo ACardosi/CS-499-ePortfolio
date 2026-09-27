@@ -15,4 +15,4 @@ ePortfolio.
 
 ## Code Review Video
 
-[Watch My Code Review Video]((https://youtu.be/L2gbRBubGQY))
+[Watch My Code Review Video](https://www.youtube.com/watch?v=L2gbRBubGQY)
