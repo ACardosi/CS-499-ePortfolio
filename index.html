@@ -1,39 +1,220 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Computer Science ePortfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS 499 | Computer Science ePortfolio</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f6fa;
+            color: #243247;
+            line-height: 1.7;
+        }
+
+        header {
+            background: #172d4d;
+            color: white;
+            padding: 45px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 5px;
+        }
+
+        nav {
+            background: #243e62;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 35px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background: white;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+
+        h2 {
+            color: #17365d;
+        }
+
+        .button {
+            display: inline-block;
+            background: #20558c;
+            color: white;
+            padding: 10px 18px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        .button:hover {
+            background: #153d68;
+        }
+
+        footer {
+            background: #172d4d;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
 </head>
+
 <body>
 
+<header>
     <h1>Computer Science ePortfolio</h1>
+    <p>CS 499 | Computer Science Capstone</p>
+</header>
 
-    <p>
-        Welcome to my CS 499 Computer Science ePortfolio.
-        This portfolio demonstrates my growth throughout
-        the Computer Science program.
-    </p>
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#assessment">Self-Assessment</a>
+    <a href="#review">Code Review</a>
+    <a href="#enhancements">Enhancements</a>
+</nav>
 
-    <h2>Code Review</h2>
+<main>
 
-    <p>
-        My code review evaluates my original InventoryTracker
-        application and identifies planned improvements in
-        software engineering, algorithms and data structures,
-        and databases.
-    </p>
+    <section id="about">
+        <h2>Welcome</h2>
 
-    <p>
-        <a href="code-review.md">View My Code Review</a>
-    </p>
+        <p>
+            Welcome to my CS 499 Computer Science ePortfolio.
+            This portfolio demonstrates my growth throughout
+            the Computer Science program at Southern New
+            Hampshire University.
+        </p>
 
-    <h2>Artifact Enhancements</h2>
+        <p>
+            My work highlights my experience with Java,
+            Android application development, software
+            engineering, algorithms, data structures,
+            SQLite databases, and secure coding practices.
+        </p>
+    </section>
 
-    <ul>
-        <li>Software Design and Engineering</li>
-        <li>Algorithms and Data Structures</li>
-        <li>Databases</li>
-    </ul>
+    <section id="assessment">
+        <h2>Professional Self-Assessment</h2>
+
+        <p>
+            Throughout my Computer Science program, I have
+            developed skills in software development,
+            problem-solving, database management, and
+            application security.
+        </p>
+
+        <p>
+            My InventoryTracker application demonstrates
+            my ability to improve an existing software
+            system through better design, efficient
+            algorithms, and database enhancements.
+        </p>
+
+        <p>
+            My coursework has also strengthened my
+            understanding of collaboration, communication,
+            and professional software development practices.
+        </p>
+
+        <!-- Replace this summary with the full text
+             of your Professional Self-Assessment. -->
+    </section>
+
+    <section id="review">
+        <h2>Code Review</h2>
+
+        <p>
+            My code review examines the original
+            InventoryTracker application and identifies
+            opportunities for improvement in software
+            engineering, algorithms and data structures,
+            and database design.
+        </p>
+
+        <a class="button" href="code-review.md">
+            View Code Review
+        </a>
+    </section>
+
+    <section id="enhancements">
+        <h2>Artifact Enhancements</h2>
+
+        <h3>Enhancement One: Software Design and Engineering</h3>
+
+        <p>
+            This enhancement improves the InventoryTracker
+            application by introducing an InventoryItem model
+            and InventoryRepository class. These changes
+            improve separation of concerns, readability,
+            and maintainability.
+        </p>
+
+        <a class="button" href="software-engineering.html">
+            View Enhancement One
+        </a>
+
+        <h3>Enhancement Two: Algorithms and Data Structures</h3>
+
+        <p>
+            This enhancement focuses on improving the
+            application's inventory management logic
+            through algorithms and data structures.
+        </p>
+
+        <a class="button" href="algorithms.html">
+            View Enhancement Two
+        </a>
+
+        <h3>Enhancement Three: Databases</h3>
+
+        <p>
+            This enhancement improves the SQLite database
+            through parameterized queries, database
+            constraints, indexing, schema migration,
+            and improved password protection.
+        </p>
+
+        <a class="button" href="databases.html">
+            View Enhancement Three
+        </a>
+    </section>
+
+</main>
+
+<footer>
+    <p>CS 499 Computer Science ePortfolio</p>
+    <p>Southern New Hampshire University</p>
+</footer>
 
 </body>
 </html>
